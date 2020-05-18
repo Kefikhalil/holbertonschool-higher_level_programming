@@ -12,4 +12,4 @@ def safe_print_list_integers(my_list=[], x=0):
             k += 1
 
     print()
-    return i - j
+    return i - k
