@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-"""
-This is a rectangle class
-"""
+''' This is a Rectangle class '''
 
 
 class Rectangle:
-    pass
+
+    ''' class '''
+
+
+pass
