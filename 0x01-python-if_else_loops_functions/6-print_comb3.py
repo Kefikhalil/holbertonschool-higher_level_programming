@@ -8,4 +8,3 @@ for a in range(0, 10):
                 print("{:d}{:d}".format(a, b), end='\n')
             else:
                 print("{:d}{:d}".format(a, b), end='\n')
-
