@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-"""Improve Geometry """
+"""Class base 
+Geometry 
+"""
 
 
 class BaseGeometry(object):
-    """Improve Geometry """
+    """Base Geometry
+    """
     def area(self):
+        """
+        area
+        """
         raise Exception("area() is not implemented")
