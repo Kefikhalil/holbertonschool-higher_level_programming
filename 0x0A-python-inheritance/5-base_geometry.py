@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-"""Geometry module """
+"""Class Geometry
+"""
 
 
 class BaseGeometry(object):
-    """Geometry module """
+    """Base Geometry
+    """
 
     pass
