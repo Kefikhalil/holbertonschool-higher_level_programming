@@ -5,10 +5,9 @@ Geometry
 
 
 class BaseGeometry(object):
-    """Base Geometry
+    """ BaseGeometry
     """
     def area(self):
-        """
-        area
+        """area
         """
         raise Exception("area() is not implemented")
