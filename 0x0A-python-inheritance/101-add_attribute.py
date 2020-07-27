@@ -4,9 +4,9 @@
 """
 
 
-def add_attribute(key, obj, name):
+def add_attribute(obj, key, name):
     """Add attribute
     """
     if not hasattr(obj, "__dict__"):
         raise TypeError("can't add new attribute")
-    setattr(key, obj, name)
+    setattr(obj, key, name)
