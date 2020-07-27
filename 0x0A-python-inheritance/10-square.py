@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-"""Square #1"""
+
 Rectangle = __import__('9-rectangle').Rectangle
+"""CLass rectangle
+"""
 
 
 class Square(Rectangle):
-    """Square"""
+    """Square
+    """
     def __init__(self, size):
-        """Initialise"""
+        """init
+        """
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
-
-    def area(self):
-        """Square area"""
-        return self.__size**2
