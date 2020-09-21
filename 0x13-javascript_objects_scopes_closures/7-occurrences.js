@@ -2,8 +2,8 @@
 /* returns the number of occurrences in a list */
 exports.nbOccurences = function (list, searchElement) {
 	let Occurrences = 0;
-	for (let Occurrences = 0; Occurrences < list.length; Occurrences++) {
-		if (list[Occurrences] === searchElement){
+	for (const a of list) {
+		if (a === searchElement){
 			Occurrences++;
 		}
 	}
